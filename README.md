@@ -50,9 +50,17 @@ GET `/id/:id` - get a quote by `id`
 
 GET `/author/authorName` - get quotes by a specfic _Author_
 
+> Example - get quotes by Steve Jobs: 
+
+> https://api-get-quotes.vercel.app/api/v1/author/Steve%20Jobs
+
+
 GET `/category/categoryName` - get quotes based on a specific _Category_ (Check below for available categories)
 
-Categories include: _Motivation, Technology, Science, Wisdom, Life, Love_
+> Choose from available categories: Motivation, Life, Wisdom, Love, Technology, Creativity, Courage, Nature, Change, Inspiration, Leadership, Happiness, Perseverance, Imagination, Hope, Friendship..
+
+> Example: get all quotes from "Technology" category
+> https://api-get-quotes.vercel.app/api/v1/category/technology
 
 ## Contribution
 Wish to contribute? I'd love it! - Simply fork the Repo and send a Pull Request with your changes and a detailed PR note/description. 
