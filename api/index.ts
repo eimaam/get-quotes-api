@@ -13,6 +13,6 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
-app.use("/api/v1/getquotes", v1Router);
+app.use("/api/v1", v1Router);
 
 app.listen(PORT, () => console.log(`Server Started on PORT: ${PORT}`));
