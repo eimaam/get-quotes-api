@@ -1,4 +1,4 @@
-# Free Quotes API
+# Get Quotes API
 
 **Quotes from various backgrounds - Motivationn, Science, Business, Technology, Life, Love, Wisdom etc.**
 
@@ -10,7 +10,8 @@
 
 ## Introduction
 
-This is an Open Source API that provides a collection of quotes from diverse backgrounds ranging from Motivation, Science, Wisdom, Love and etc all randomly generated via chatGPT and rendered perfectly here with each quote having an _Author_ and _category_. It includes a filter route that allows for filtering based on - _Author name_, _category_ or _id_.
+The getQuotes API is an Open Source service, powered by Node.js, that provides a dynamic collection of quotes across various categories such as Motivation, Science, Wisdom, Love, and more. Utilizing chatGPT to generate the most of the current array of quotes provided in the API. This API seamlessly integrates with your applications or projects, offering a cool and versatile resource. 
+Each quote comes with essential details, including the author and category, and it  includes a convenient filter route for refining results based on parameters like `Author name`, `category`, or `id`. 
 
 
 ## Development
