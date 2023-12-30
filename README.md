@@ -44,13 +44,13 @@ Your API calls should be to this endpoint: `https://api-get-quotes.vercel.app/ap
 
 GET `/quotes` - Get All Quotes 
 
-GET `/quotes/random` - get a _random_ quote
+GET `/random` - get a _random_ quote
 
-GET `/quotes/id/:id` - get a quote by `id`
+GET `/id/:id` - get a quote by `id`
 
-GET `/quotes/author/authorName` - get quotes by a specfic _Author_
+GET `/author/authorName` - get quotes by a specfic _Author_
 
-GET `/quotes/category/categoryName` - get quotes based on a specific _Category_ (Check below for available categories)
+GET `/category/categoryName` - get quotes based on a specific _Category_ (Check below for available categories)
 
 Categories include: _Motivation, Technology, Science, Wisdom, Life, Love_
 
