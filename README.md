@@ -5,7 +5,7 @@
 ## DEPLOYMENT
 - API is deployed on Vercel 
 
-**API URL:** https://api-get-quotes.vercel.app/ 
+**API URL:** https://api-get-quotes.vercel.app/api/v1
 
 
 ## Introduction
@@ -35,9 +35,11 @@ npm run start
 
 It should log to the console - `Server Started on PORT: 3000` or any port value you supplied. 
 
+- Now you can test the endpoints locally. E.g - get all quotes via `http://localhost:3000/api/v1/quotes`
+
 ## API Documentation
 
-https://api-get-quotes.vercel.app/v1
+Your API calls should be to this endpoint: `https://api-get-quotes.vercel.app/api/v1`
 
 GET `/quotes` - Get All Quotes 
 
